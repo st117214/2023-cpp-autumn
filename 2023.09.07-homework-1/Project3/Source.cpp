@@ -1,9 +1,10 @@
 #include <iostream>
-using namespace std;
 int main()
 {
-	int N;
-	cin >> N;
-	cout << (N / 10) * (N / 10 + 1) * 100 + 25;
+	long long  N = 0;
+	std::cin >> N;
+	long long q;
+	q = N / 10;
+	std::cout << q * (q + 1) * 100 + 25;
 	return 0;
 }

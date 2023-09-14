@@ -4,7 +4,9 @@ int main()
 {
 	int N;
 	cin >> N;
-	int K = (N + 1) * N / 2;
+	int b;
+	b = abs(N - 1) + 1;
+	int K = (N + 1) * b / 2;
 	cout << K;
 	return 0;
 }

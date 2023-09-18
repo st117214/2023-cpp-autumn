@@ -1,7 +1,9 @@
 #include <iostream>
-int main()
+int main(int argc, char* argv[])
 {
-	int V, T, N = 109;
+	int N = 109;
+	int V = 0;
+	int T = 0;
 	std::cin >> V >> T;
 	int S = V * T;
 	int R = S % N;

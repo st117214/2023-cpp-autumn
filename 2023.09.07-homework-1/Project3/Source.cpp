@@ -1,5 +1,5 @@
 #include <iostream>
-int main()
+int main(int argc, char* argv[])
 {
 	long long  N = 0;
 	std::cin >> N;

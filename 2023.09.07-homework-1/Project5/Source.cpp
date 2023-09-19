@@ -4,9 +4,12 @@ int main(int argc, char* argv[])
 	int N = 109;
 	int V = 0;
 	int T = 0;
-	std::cin >> V >> T;
-	int S = V * T;
-	int R = S % N;
+	std::cin >> V;
+	std::cin >> T;
+	int S = 0;
+	S = V * T;
+	int R = 0;
+	R = S % N;
 	std::cout << (R + N) % N + 1;
 	return 0;
 }

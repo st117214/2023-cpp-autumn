@@ -1,9 +1,9 @@
 #include <iostream>
 int main(int argc, char* argv[])
 {
-	int N = 0;
-	std::cin >> N;
-	std::cout << "The next number for the number " << N << " is " << N + 1 << "." << std::endl;
-	std::cout << "The previous number for the number " << N << " is " << N - 1 << "." << std::endl;
-	return 0;
+	int n = 0;
+	std::cin >> n;
+	std::cout << "The next number for the number " << n << " is " << n + 1 << "." << std::endl;
+	std::cout << "The previous number for the number " << n << " is " << n - 1 << "." << std::endl;
+	return EXIT_SUCCESS;
 }

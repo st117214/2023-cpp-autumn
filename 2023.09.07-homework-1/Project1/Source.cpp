@@ -1,10 +1,10 @@
 #include <iostream>
 int main(int argc, char* argv[])
 {
-	int A = 0;
-	int B = 0;
-	std::cin >> A;
-	std::cin >> B;
-	std::cout << A + B;
-	return 0;
+	int a = 0;
+	int b = 0;
+	std::cin >> a;
+	std::cin >> b;
+	std::cout << a + b << std::endl;
+	return EXIT_SUCCESS;
 }

@@ -1,17 +1,17 @@
 #include <iostream>
 int main(int argc, char* argv[])
 {
-	int N = 109;
-	int V = 0;
-	int T = 0;
-	std::cin >> V;
-	std::cin >> T;
-	int S = 0;
-	S = V * T;
-	int R = 0;
-	R = S % N;
-	std::cout << (R + N) % N + 1;
-	return 0;
+	int n = 109;
+	int v = 0;
+	int t = 0;
+	std::cin >> v;
+	std::cin >> t;
+	int s = 0;
+	s = v * t;
+	int r = 0;
+	r = s % n;
+	std::cout << (r + n) % n + 1 << std::endl;
+	return EXIT_SUCCESS;
 }
 
 	

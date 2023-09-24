@@ -9,23 +9,17 @@ int main(int argc, char* argv[])
 	std::cin >> b;
 	std::cin >> c;
 	std::cin >> d;
-	int x = 0;
 	if ((a == 0) && (b == 0))
 	{
 		std::cout << "INF" << std::endl;
-	}
-	if (((a == 0) && (b != 0)) || (((b % a) != 0) && ((c * (-b / a) + d) == 0)) || ((b % a) != 0) || (((b % a) == 0) && ((c * (-b / a) + d) == 0)))
+	} else
+	if ((a == 0) || (b % a != 0) || ((b % a == 0) && (a * d == b * c) && (a != 0)))
 	{
 		std::cout << "NO" << std::endl;
-	}
-	if (((b % a) == 0) && ((c * (-b / a) + d) != 0) && (a != 0))
+	} else
+	if (((b % a) == 0) && (a * d != b * c))
 	{
 		std::cout << -b / a << std::endl;
-	}
-	if ((b == 0) && (d != 0))
-	{
-		x = 0;
-		std::cout << x << std::endl;
 	}
 	return EXIT_SUCCESS;
 }

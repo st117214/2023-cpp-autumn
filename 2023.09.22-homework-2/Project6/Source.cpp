@@ -9,10 +9,27 @@ int main(int argc, char* argv[])
 	std::cin >> n;
 	if (k >= n)
 	{
-		std::cout << m * 2;
+		std::cout << m * 2 << std::endl;
+	} 
+	else if (n * 2 % k == 0)
+	{ 
+		std::cout << (n * 2 / k) * m << std::endl;
 	}
-	if (k < n)
+	else
 	{
+		std::cout << ((n * 2 / k) + 1) * m << std::endl;
+	}
+	return EXIT_SUCCESS;
+}
+
+
+
+	
+
+
+
+
+
 
 
 	 

@@ -1,4 +1,5 @@
 #include <iostream>
+
 int main(int argc, char* argv[])
 {
 	int a = 0;
@@ -12,46 +13,33 @@ int main(int argc, char* argv[])
 		if (b <= c)
 		{
 			std::cout << a << " " << b << " " << c;
-			return EXIT_SUCCESS;
 		}
 		else
 		{
 			std::cout << a << " " << c << " " << b;
-			return EXIT_SUCCESS;
 		}
 	}
-	if ((b <= a) && (b <= c))
+	if ((b < a) && (b <= c))
 	{
 		if (a <= c)
 		{
 			std::cout << b << " " << a << " " << c;
-			return EXIT_SUCCESS;
 		}
 		else
 		{
 			std::cout << b << " " << c << " " << a;
-			return EXIT_SUCCESS;
 		}
 	}
-	if ((c <= a) && (c <= b))
+	if ((c < a) && (c < b))
 	{
 		if (a <= b)
 		{
 			std::cout << c << " " << a << " " << b;
-			return EXIT_SUCCESS;
 		}
 		else
 		{
 			std::cout << c << " " << b << " " << a;
-			return EXIT_SUCCESS;
 		}
 	}
+	return EXIT_SUCCESS;
 }
-
-
-
-		
-		
-	
-
-		    

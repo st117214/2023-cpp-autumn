@@ -2,14 +2,12 @@
 
 int main(int argc, char* argv[])
 {
-	int n = 0;
-	std::cin >> n;
 	int a = 0;
 	std::cin >> a;
-	char c = 0;
-	
-    c == ((n == 1) == (a == 1)) ? "YES" : "NO";
-	std::cout << c;
+	int b = 0;
+	std::cin >> b;
+
+	std::cout << a - b << std::endl;
 
 	return EXIT_SUCCESS;
 }

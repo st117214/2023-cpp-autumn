@@ -1,4 +1,5 @@
 #include <iostream>
+
 int main(int argc, char* argv[])
 {
 	int k = 0;
@@ -10,9 +11,9 @@ int main(int argc, char* argv[])
 	if (k >= n)
 	{
 		std::cout << m * 2 << std::endl;
-	} 
+	}
 	else if (n * 2 % k == 0)
-	{ 
+	{
 		std::cout << (n * 2 / k) * m << std::endl;
 	}
 	else
@@ -21,15 +22,3 @@ int main(int argc, char* argv[])
 	}
 	return EXIT_SUCCESS;
 }
-
-
-
-	
-
-
-
-
-
-
-
-	 

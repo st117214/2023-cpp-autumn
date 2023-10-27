@@ -14,8 +14,9 @@ int main(int argc, char* argv[])
 	std::cout << std::endl;
 	while (!exit)
 	{   
+		    system("cls");
 			printMenu();
-
+			
 		    int choice = 0;
 			std::cin >> choice;
       
@@ -29,6 +30,7 @@ int main(int argc, char* argv[])
 			case 1:
 			{
 				printArray(a, length);
+				system("pause");
 				break;
 			}
 			case 2:
@@ -78,6 +80,7 @@ int main(int argc, char* argv[])
 			default:
 			{
 				std::cout << "Unknown command" << std::endl;
+				system("pause");
 				break;
 			}
 			}

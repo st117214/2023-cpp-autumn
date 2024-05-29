@@ -18,12 +18,18 @@
     <ClCompile Include="Source.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="invariantcounting.cpp">
+    <ClCompile Include="parcingfunctions.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleAppMenu.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="invariantcounting.h">
+    <ClInclude Include="parcingfunctions.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsoleAppMenu.h">
       <Filter>Исходные файлы</Filter>
     </ClInclude>
   </ItemGroup>

@@ -123,11 +123,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ConsoleAppMenu.cpp" />
+    <ClCompile Include="parcingfunctions.cpp" />
     <ClCompile Include="Source.cpp" />
-    <ClCompile Include="invariantcounting.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="invariantcounting.h" />
+    <ClInclude Include="ConsoleAppMenu.h" />
+    <ClInclude Include="parcingfunctions.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
